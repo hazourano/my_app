@@ -33,4 +33,7 @@ MyApp::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+
+  #Setting to lower bcrpty cost function when testing
+  ActiveModel::SecurePassword.min_cost =true
 end
