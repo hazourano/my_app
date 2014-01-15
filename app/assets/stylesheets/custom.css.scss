@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "bootstrap-responsive";
 $lightGray: #999;
 $grayMediumLight: #eaeaea;
 /* universal */
@@ -7,8 +8,10 @@ html {
   overflow-y: scroll;
 }
 
+@media (min-width: 979px) {
 body {
-  padding-top: 60px;
+padding-top: 60px;
+}
 }
 
 section {
