@@ -2,7 +2,7 @@
 @import "bootstrap-responsive";
 $lightGray: #999;
 $grayMediumLight: #eaeaea;
-$orangeLogo: #FF4000;
+$redLogo: #DF0101;
 /* universal */
 
 html {
@@ -64,7 +64,7 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: $orangeLogo;
+  color: $redLogo;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
