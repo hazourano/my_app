@@ -2,21 +2,21 @@
     <div class="navbar-inner">
         <div class="container">
         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-th-list"></span></a>
-        <%= link_to "taplah", root_path, id: "logo" %>
+        <span class="icon-align-justify"></span></a>
+        <%= link_to "addz-central", root_path, id: "logo" %>
         <div class="nav-collapse collapse">
             <ul class="nav pull-right">
-          	<li><%= link_to "Home", root_path %></li>
-          	<li><%= link_to "Help", help_path %></li>
+          	<li><%= link_to '<i class="icon-home"></i> Home'.html_safe, root_path %></li>
+          	<li><%= link_to '<i class="icon-question-sign"></i> Help'.html_safe, help_path %></li>
 		<% if signed_in? %>
-					<li><a href="#">Dashboard</a></li>
-                	<li><%= link_to "Profile", current_user %></li>
-                	<li><%= link_to "Settings", edit_user_path(current_user) %></li>
-                	<li><a href="#">Manage Users</a></li> 
-                	<li><a href="#">Campaign Manager</a></li>           
-                	<li><%= link_to "Sign out", signout_path, method: "delete" %></li>
+					<li><a href="#"><i class="icon-file"></i> Dashboard</a></li>
+                	<li><%= link_to '<i class="icon-asterisk"></i> Profile'.html_safe, current_user %></li>
+                	<li><%= link_to '<i class="icon-edit"></i> Settings'.html_safe, edit_user_path(current_user) %></li>
+                	<li><a href="#"><i class="icon-user"></i> Manage Users</a></li> 
+                	<li><a href="#"><i class="icon-calendar"></i> Campaign Manager</a></li>           
+                	<li><%= link_to '<i class="icon-off"></i> Sign Out'.html_safe, signout_path, method: "delete" %></li>
           	<% else %>
-            		<li><%= link_to "Sign in", signin_path %></li>
+            		<li><%= link_to '<i class="icon-off"></i> Sign in'.html_safe, signin_path %></li>
           	<% end %>
             </ul>
             </div>
