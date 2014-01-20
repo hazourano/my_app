@@ -1,13 +1,14 @@
 <% provide(:title) %>
-<div class="center hero-unit">
+<div class="bs-header" id="content">
+	<div class="container">
   <h1>Welcome to AdVertz</h1>
 
   <h2>
     Future of Advertising is here
     <a href="http://railstutorial.org/">AdVertz..</a>
   </h2>
-
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
 </div>
 <div class="row-fluid">
     <div class="span4">
@@ -25,5 +26,6 @@
         <p>Hello These are our clients. <a href="#">Click here</a>.</p>
         <a href="#" class="btn btn-primary"><i class="icon-file icon-white"></i> Our Clients</a>
     </div>
-</div>
+    </div>
+
 <%#= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>

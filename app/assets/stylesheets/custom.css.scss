@@ -1,5 +1,5 @@
 @import "bootstrap";
-@import "bootstrap-responsive";
+/*@import "bootstrap-responsive";*/
 $lightGray: #999;
 $grayMediumLight: #eaeaea;
 $redLogo: #DF0101;
@@ -8,10 +8,12 @@ $redLogo: #DF0101;
 html {
   overflow-y: scroll;
 }
-
+body {
+  padding-top: 60px;
+}
 @media (min-width: 979px) {
 body {
-padding-top: 60px;
+padding-top: 65px;
 }
 }
 
@@ -59,7 +61,11 @@ p {
 }
 
 /* header */
-
+.bs-header {
+  background-color: $grayMediumLight;
+  padding-bottom: 30px;
+  text-align: center;
+}
 #logo {
   float: left;
   margin-right: 10px;
@@ -123,7 +129,7 @@ footer {
 aside {
   section {
     padding: 10px 0;
-    border-top: 1px solid $grayLighter;
+    border-top: 1px solid $lightGray;
     &:first-child {
       border: 0;
       padding-top: 0;
