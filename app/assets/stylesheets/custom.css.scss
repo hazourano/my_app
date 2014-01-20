@@ -15,6 +15,28 @@ body {
 body {
 padding-top: 65px;
 }
+
+  .messages-dropdown .dropdown-menu {
+  min-width: 300px;
+  }
+
+  .messages-dropdown .dropdown-menu li a {
+  white-space: normal;
+  }
+
+  .navbar-collapse {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .announcement-heading {
+  font-size: 50px;
+  margin: 0;
+}
+
+  .announcement-text {
+  margin: 0;
+}
+
 }
 
 section {
@@ -179,4 +201,6 @@ input {
   @extend .control-group;
   @extend .error;
 }
+/* Nav Announcements */
+
 
