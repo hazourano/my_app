@@ -20,11 +20,11 @@
               <div class="panel-heading">
                 <div class="row">
                   <div class="col-xs-6">
-                    <i class="fa fa-comments fa-5x"></i>
+                    <i class="glyphicon glyphicon-play-circle announcement-heading"></i>
                   </div>
                   <div class="col-xs-6 text-right">
                     <p class="announcement-heading">456</p>
-                    <p class="announcement-text">New Mentions!</p>
+                    <p class="announcement-text">Campaigns</p>
                   </div>
                 </div>
               </div>
@@ -32,7 +32,7 @@
                 <div class="panel-footer announcement-bottom">
                   <div class="row">
                     <div class="col-xs-6">
-                      View Mentions
+                      View Campaigns
                     </div>
                     <div class="col-xs-6 text-right">
                       <i class="glyphicon glyphicon-circle-arrow-right"></i>
@@ -47,7 +47,7 @@
               <div class="panel-heading">
                 <div class="row">
                   <div class="col-xs-6">
-                    <i class="fa fa-check fa-5x"></i>
+                    <i class="glyphicon glyphicon-ok announcement-heading"></i>
                   </div>
                   <div class="col-xs-6 text-right">
                     <p class="announcement-heading">12</p>
@@ -74,11 +74,11 @@
               <div class="panel-heading">
                 <div class="row">
                   <div class="col-xs-6">
-                    <i class="fa fa-tasks fa-5x"></i>
+                    <i class="glyphicon glyphicon-warning-sign announcement-heading"></i>
                   </div>
                   <div class="col-xs-6 text-right">
                     <p class="announcement-heading">18</p>
-                    <p class="announcement-text">Crawl Errors</p>
+                    <p class="announcement-text">Complaints</p>
                   </div>
                 </div>
               </div>
@@ -86,7 +86,7 @@
                 <div class="panel-footer announcement-bottom">
                   <div class="row">
                     <div class="col-xs-6">
-                      Fix Issues
+                      View Complaints
                     </div>
                     <div class="col-xs-6 text-right">
                       <i class="glyphicon glyphicon-circle-arrow-right"></i>
@@ -101,11 +101,11 @@
               <div class="panel-heading">
                 <div class="row">
                   <div class="col-xs-6">
-                    <i class="fa fa-comments fa-5x"></i>
+                    <i class="glyphicon glyphicon-bullhorn announcement-heading"></i>
                   </div>
                   <div class="col-xs-6 text-right">
                     <p class="announcement-heading">56</p>
-                    <p class="announcement-text">New Orders!</p>
+                    <p class="announcement-text">Message</p>
                   </div>
                 </div>
               </div>
@@ -113,7 +113,7 @@
                 <div class="panel-footer announcement-bottom">
                   <div class="row">
                     <div class="col-xs-6">
-                      Complete Orders
+                      View Messages
                     </div>
                     <div class="col-xs-6 text-right">
                       <i class="glyphicon glyphicon-circle-arrow-right"></i>
@@ -128,10 +128,91 @@
           <div class="col-lg-12">
             <div class="panel panel-primary">
               <div class="panel-heading">
-                <h3 class="panel-title"><i class="glyphicon glyphicon-dashboard"></i> Campaigns</h3>
+                <h3 class="panel-title"><i class="glyphicon glyphicon-dashboard"></i> Today's Statistic</h3>
               </div>
               <div class="panel-body">
                 <div id="myfirstchart" style="height: 250px;"></div>         
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title"><i class="glyphicon glyphicon-dashboard"></i> Campaign Type Effectiveness</h3>
+              </div>
+              <div class="panel-body">   
+              	<div id="mysecondchart" style="height: 250px;"></div>                  
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title"><i class="glyphicon glyphicon-dashboard"></i> Top 10 Campaigns</h3>
+              </div>
+              <div class="panel-body">        
+              	<div class="table-responsive">
+  					<table class="table">
+              <table class="table table-bordered table-hover table-striped tablesorter">
+                <thead>
+                  <tr>
+                    <th>Page <i class="glyphicon glyphicon-sort"></i></th>
+                    <th>Visits <i class="glyphicon glyphicon-sort"></i></th>
+                    <th>% New Visits <i class="glyphicon glyphicon-sort"></i></th>
+                    <th>Revenue <i class="glyphicon glyphicon-sort"></i></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="active">
+                    <td>/index.html</td>
+                    <td>1265</td>
+                    <td>32.3%</td>
+                    <td>$321.33</td>
+                  </tr>
+                  <tr class="success">
+                    <td>/about.html</td>
+                    <td>261</td>
+                    <td>33.3%</td>
+                    <td>$234.12</td>
+                  </tr>
+                  <tr class="warning">
+                    <td>/sales.html</td>
+                    <td>665</td>
+                    <td>21.3%</td>
+                    <td>$16.34</td>
+                  </tr>
+                  <tr class="danger">
+                    <td>/blog.html</td>
+                    <td>9516</td>
+                    <td>89.3%</td>
+                    <td>$1644.43</td>
+                  </tr>
+                  <tr>
+                    <td>/404.html</td>
+                    <td>23</td>
+                    <td>34.3%</td>
+                    <td>$23.52</td>
+                  </tr>
+                  <tr>
+                    <td>/services.html</td>
+                    <td>421</td>
+                    <td>60.3%</td>
+                    <td>$724.32</td>
+                  </tr>
+                  <tr>
+                    <td>/blog/post.html</td>
+                    <td>1233</td>
+                    <td>93.2%</td>
+                    <td>$126.34</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+  					</table>
+				</div>            
               </div>
             </div>
           </div>
@@ -145,6 +226,28 @@
 	new Morris.Line({
   // ID of the element in which to draw the chart.
   element: 'myfirstchart',
+  // Chart data records -- each entry in this array corresponds to a point on
+  // the chart.
+  data: [
+    { year: '2008', value: 20 },
+    { year: '2009', value: 10 },
+    { year: '2010', value: 5 },
+    { year: '2011', value: 5 },
+    { year: '2012', value: 20 }
+  ],
+  // The name of the data record attribute that contains x-values.
+  xkey: 'year',
+  // A list of names of data record attributes that contain y-values.
+  ykeys: ['value'],
+  // Labels for the ykeys -- will be displayed when you hover over the
+  // chart.
+  labels: ['Value']
+});
+</script>
+<script>
+	new Morris.Line({
+  // ID of the element in which to draw the chart.
+  element: 'mysecondchart',
   // Chart data records -- each entry in this array corresponds to a point on
   // the chart.
   data: [

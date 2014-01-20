@@ -37,6 +37,13 @@ padding-top: 65px;
   margin: 0;
 }
 
+table.tablesorter thead {
+  cursor: pointer;
+}
+
+table.tablesorter thead tr th:hover {
+  background-color: #f5f5f5;
+}
 }
 
 section {

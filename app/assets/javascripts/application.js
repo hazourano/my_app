@@ -15,5 +15,7 @@
 //= require bootstrap
 //= require raphael
 //= require morris
+//= require jquery.tablesorter
+//= require tables
 //= require turbolinks
 //= require_tree .
