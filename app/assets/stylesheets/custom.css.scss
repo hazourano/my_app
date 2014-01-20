@@ -41,7 +41,7 @@ h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -65,7 +65,7 @@ p {
   margin-right: 10px;
   font-size: 1.7em;
   color: $redLogo;
-  text-transform: uppercase;
+  /*text-transform: uppercase; */
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
@@ -173,8 +173,4 @@ input {
   @extend .control-group;
   @extend .error;
 }
-
-
-
-
 
