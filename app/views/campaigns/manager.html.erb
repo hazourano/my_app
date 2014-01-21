@@ -15,16 +15,153 @@
           </div>
         </div><!-- /.row -->
         <div class="row">
-          <div class="col-lg-12">
+         <div class="col-lg-12">
             <div class="panel panel-primary">
               <div class="panel-heading">
-                <h3 class="panel-title"><i class="glyphicon glyphicon-calendar"></i> Campaigns</h3>
+                <h3 class="panel-title"><i class="glyphicon glyphicon-calendar"></i> All Campaigns</h3>
               </div>
-              <div class="panel-body">      
+              <div class="panel-body">        
+              	<div class="table-responsive">
+			<table class="table table-bordered table-hover tablesorter">			
+			<thead>
+				<tr>
+			<th>Campaign name</th>
+			<th>Start</th>
+			<th>End</th>
+			<th>Total Redeemed</th>
+			<th>Total Valid </th>
+			<th>Net Variance (Amt)</th>
+			<th>Net Variance (%Amt%)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Campaign Samurai</td>
+			<td>jan 6, 2014 8:14 am</td>
+			<td>may 6, 2014 8:14 am</td>
+			<td>100</td>
+			<td>90</td>
+			<td>90.00</td>
+			<td>10%</td>
+		</tr>
+		<tr>
+			<td>Campaign Ninja</td>
+			<td>jan 8, 2014 8:14 am</td>
+			<td>may 9, 2014 8:14 am</td>
+			<td>1000</td>
+			<td>90</td>
+			<td>990.00</td>
+			<td>1%</td>
+		</tr>
+	</tbody>
+</table>
+				</div>            
               </div>
             </div>
           </div>
         </div>
+
+        <div class="row">
+         <div class="col-lg-6">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title"><i class="glyphicon glyphicon-calendar"></i> Top 10 Campaigns</h3>
+              </div>
+              <div class="panel-body">        
+              	<div class="table-responsive">
+			<table class="table table-bordered table-hover tablesorter">			
+			<thead>
+				<tr>
+			<th>Campaign name</th>
+			<th>Start</th>
+			<th>End</th>
+			<th>Total Redeemed</th>
+			<th>Total Valid </th>
+			<th>Net Variance (Amt)</th>
+			<th>Net Variance (%Amt%)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Campaign Samurai</td>
+			<td>jan 6, 2014 8:14 am</td>
+			<td>may 6, 2014 8:14 am</td>
+			<td>100</td>
+			<td>90</td>
+			<td>90.00</td>
+			<td>10%</td>
+		</tr>
+		<tr>
+			<td>Campaign Ninja</td>
+			<td>jan 8, 2014 8:14 am</td>
+			<td>may 9, 2014 8:14 am</td>
+			<td>1000</td>
+			<td>90</td>
+			<td>990.00</td>
+			<td>1%</td>
+		</tr>
+	</tbody>
+</table>
+				</div>            
+              </div>
+            </div>
+          </div>
+
+         <div class="col-lg-6">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title"><i class="glyphicon glyphicon-calendar"></i> Bottom 10 Campaigns</h3>
+              </div>
+              <div class="panel-body">        
+              	<div class="table-responsive">
+			<table class="table table-bordered table-hover tablesorter">			
+			<thead>
+				<tr>
+			<th>Campaign name</th>
+			<th>Start</th>
+			<th>End</th>
+			<th>Total Redeemed</th>
+			<th>Total Valid </th>
+			<th>Net Variance (Amt)</th>
+			<th>Net Variance (%Amt%)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Campaign Geisha</td>
+			<td>jan 6, 2014 8:14 am</td>
+			<td>may 6, 2014 8:14 am</td>
+			<td>100</td>
+			<td>90</td>
+			<td>90.00</td>
+			<td>10%</td>
+		</tr>
+		<tr>
+			<td>Campaign Ronin</td>
+			<td>jan 8, 2014 8:14 am</td>
+			<td>may 9, 2014 8:14 am</td>
+			<td>1000</td>
+			<td>90</td>
+			<td>990.00</td>
+			<td>1%</td>
+		</tr>
+	</tbody>
+</table>
+				</div>            
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
         </div><!-- /#page-wrapper -->
 
     </div>
+  <script>
+  	$(document).ready(function() {
+	// call the tablesorter plugin
+	$("table").tablesorter({
+		// sort on the first column and third column, order asc
+		sortList: [[0,0],[2,0]]
+	});
+}); 
+  </script>
